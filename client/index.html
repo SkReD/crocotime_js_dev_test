@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+</head>
+<body>
+
+<div id="code-editor">
+</div>
+
+<!-- TODO: Здесь должны подключаться скрипты библиотек -->
+<script src="js/editor.js"></script>
+<script>
+    //TODO: По завершении работ этот код должен начать работать
+    $('#code-editor').codeEditor({ width: 550, height: 220, websocketServer: 'ws://localhost:8081' });
+</script>
+
+</body>
+</html>
